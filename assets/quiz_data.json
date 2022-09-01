@@ -1,0 +1,93 @@
+{
+  "quizzes": [
+    {
+      "quiz_title": "Emotional Literacy Quiz",
+      "questions": [
+        "I find it easy to identify my emotions",
+        "I know lots of words to describe my emotions",
+        "I find it easy to recognise how emotions feel in my body",
+        "I feel comfortable talking about my emotions",
+        "I know what to do when my emotions feel overwhelming",
+        "I feel comfortable asking for help or support when I need it",
+        "I find it easy to communicate how I feel to others",
+        "I feel confident managing my emotions"
+      ],
+      "results": [
+        {
+          "score_range": [
+            0,
+            20
+          ],
+          "result_text": "You need to work on your Emotional Literacy \uD83E\uDDE0",
+          "result_image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/High-Res-Backgrounds-Free-Download.jpg"
+        },
+        {
+          "score_range": [
+            21,
+            40
+          ],
+          "result_text": "You have strong Emotional Literacy skills \uD83D\uDE0E",
+          "result_image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/High-Res-Backgrounds.jpg"
+        }
+      ]
+    },
+    {
+      "quiz_title": "Social Anxiety Quiz",
+      "questions": [
+        "I feel relaxed before social situations",
+        "I enjoy speaking to people I don't know",
+        "I feel comfortable speaking or presenting to large groups",
+        "I often start up conversations with strangers",
+        "I prefer my own company to the company of other people"
+      ],
+      "results": [
+        {
+          "score_range": [
+            0,
+            9
+          ],
+          "result_text": "You are socially anxious",
+          "result_image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/High-Res-Backgrounds-Photos-Download.jpg"
+        },
+        {
+          "score_range": [
+            10,
+            20
+          ],
+          "result_text": "You may be socially anxious",
+          "result_image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Download-High-Res-Backgrounds.jpg"
+        },
+        {
+          "score_range": [
+            21,
+            25
+          ],
+          "result_text": "You are socially confident",
+          "result_image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-high-resolution-wallpapers.jpg"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "answer_option": "Disagree",
+      "answer_score": 1
+    },
+    {
+      "answer_option": "Slightly disagree",
+      "answer_score": 2
+    },
+    {
+      "answer_option": "Neither agree or disagree ",
+      "answer_score": 3
+    },
+    {
+      "answer_option": "Slightly agree",
+      "answer_score": 4
+    },
+    {
+      "answer_option": "Agree",
+      "answer_score": 5
+    }
+  ]
+}
