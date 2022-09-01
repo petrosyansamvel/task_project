@@ -7,12 +7,12 @@ part of 'answer_model.dart';
 // **************************************************************************
 
 AnswerModel _$AnswerModelFromJson(Map<String, dynamic> json) => AnswerModel(
-      answerOption: json['answerOption'] as String,
-      answerScore: json['answerScore'] as int,
+      answerOption: json['answer_option'] as String,
+      answerScore: json['answer_score'] as int,
     );
 
 Map<String, dynamic> _$AnswerModelToJson(AnswerModel instance) =>
     <String, dynamic>{
-      'answerOption': instance.answerOption,
-      'answerScore': instance.answerScore,
+      'answer_option': instance.answerOption,
+      'answer_score': instance.answerScore,
     };

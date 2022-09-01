@@ -9,14 +9,14 @@ part of 'quiz_result_model.dart';
 QuizResultModel _$QuizResultModelFromJson(Map<String, dynamic> json) =>
     QuizResultModel(
       scoreRange:
-          (json['scoreRange'] as List<dynamic>).map((e) => e as int).toList(),
-      resultImage: json['resultImage'] as String,
-      resultText: json['resultText'] as String,
+          (json['score_range'] as List<dynamic>).map((e) => e as int).toList(),
+      resultImage: json['result_image'] as String,
+      resultText: json['result_text'] as String,
     );
 
 Map<String, dynamic> _$QuizResultModelToJson(QuizResultModel instance) =>
     <String, dynamic>{
-      'scoreRange': instance.scoreRange,
-      'resultText': instance.resultText,
-      'resultImage': instance.resultImage,
+      'score_range': instance.scoreRange,
+      'result_text': instance.resultText,
+      'result_image': instance.resultImage,
     };
